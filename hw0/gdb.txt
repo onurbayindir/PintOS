@@ -1,0 +1,63 @@
+GDB Practice:
+
+a.
+
+b.
+
+c.
+
+d.
+
+    * argv=0x7fffffffe4d8
+
+e.
+
+    * 0x7fffffffe4d8:	0xffffe712
+
+f.
+
+g.
+
+    * 0x5555555546cd
+
+h.
+
+i.
+
+j.
+
+k.
+
+l.
+
+    * 0x5555555546ef <recur+34>       callq  0x555555554550
+
+m.
+
+n.
+
+o.
+
+p.
+
+q.
+
+r.
+
+s.
+
+t.
+
+u.
+
+v.
+
+    *
+
+w.
+
+x.
+
+y.
+
+z.

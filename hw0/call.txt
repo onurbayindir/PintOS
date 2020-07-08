@@ -1,0 +1,22 @@
+1.call    recur
+  addl    $16, %esp
+
+2. According to ELF documentation .data section holds initialized data that contribute to the program's memory image. According to the ELF documentation .text section holds the "text", or executable instructions, of a program.
+
+3. objdump --syms <filename> will give us the symbols in the object file.
+
+4. g stands for global, F stands for function, O stands for object and 
+
+5.
+
+6. The recur symbol can be found in the recurse.obj file and that relevant portion is:
+00000000 l    d  .group	00000000 .group
+00000000 g     F .text	00000052 recur
+00000000 g     F .text.__x86.get_pc_thunk.ax	00000000 .hidden __x86.get_pc_thunk.ax
+
+7.
+
+8.
+
+9.
+
